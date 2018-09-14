@@ -5,11 +5,14 @@ guess = gets.chomp
 
 random_guess = rand(1..6)
 
-while guess != "exit"
-
+loop do
+  
+  
 
 if guess.to_i == random_guess
   puts "You guessed the correct number!"
+  
+  elsif
   
   else guess.to_i != random_guess
   
