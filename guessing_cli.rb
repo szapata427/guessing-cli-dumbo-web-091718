@@ -12,7 +12,7 @@ if guess == random_guess
   puts "You guessed the correct number!"
   
   else 
-  puts "The computer guessed #{random_guess}"
+  puts "The computer guessed #{random_guess}."
      end
     
     puts "Guess a number between 1 and 6."
